@@ -11,10 +11,10 @@ plateforme conversationnelle multilingue (français / derja / anglais) fondée s
 
 ### Stack
 
-**Langages** · Python · SQL · TypeScript / JavaScript · Java
-**Data & IA** · Pandas · NumPy · Scikit-learn · TensorFlow · LangChain · Hugging Face · Sentence-Transformers
-**Bases de données** · MySQL · PostgreSQL · SQL Server · MongoDB · ChromaDB
-**Outils** · Power BI · FastAPI · Docker · Git · n8n · Linux
+- **Langages** — Python · SQL · TypeScript / JavaScript · Java
+- **Data & IA** — Pandas · NumPy · Scikit-learn · TensorFlow · LangChain · Hugging Face · Sentence-Transformers
+- **Bases de données** — MySQL · PostgreSQL · SQL Server · MongoDB · ChromaDB
+- **Outils** — Power BI · FastAPI · Docker · Git · n8n · Linux
 
 ### Certifications
 
