@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Sofien Krir — Data Science and AI Engineer">
+  <title>Sofien Krir — Data Science &amp; AI Engineer</title>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1120"/>
+      <stop offset="45%" stop-color="#151C38"/>
+      <stop offset="100%" stop-color="#0B1120"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+
+    <radialGradient id="glow" cx="0.78" cy="0.42" r="0.55">
+      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.30"/>
+      <stop offset="60%" stop-color="#8B5CF6" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#0B1120" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#334155" stroke-width="0.6" stroke-opacity="0.28"/>
+    </pattern>
+
+    <clipPath id="card"><rect width="1200" height="320" rx="16"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#grid)"/>
+    <rect width="1200" height="320" fill="url(#glow)"/>
+
+    <!-- retrieval graph motif: one question fanning into sub-questions, then sources -->
+    <g stroke="url(#accent)" stroke-width="1.4" fill="none" stroke-opacity="0.55">
+      <path d="M860 160 L960 90"/>
+      <path d="M860 160 L960 160"/>
+      <path d="M860 160 L960 232"/>
+      <path d="M960 90 L1070 58"/>
+      <path d="M960 90 L1070 120"/>
+      <path d="M960 160 L1070 120"/>
+      <path d="M960 160 L1070 196"/>
+      <path d="M960 232 L1070 196"/>
+      <path d="M960 232 L1070 262"/>
+    </g>
+
+    <g fill="#06B6D4">
+      <circle cx="1070" cy="58" r="5"><animate attributeName="r" values="5;7;5" dur="4s" begin="0s" repeatCount="indefinite"/></circle>
+      <circle cx="1070" cy="120" r="5"><animate attributeName="r" values="5;7;5" dur="4s" begin="0.8s" repeatCount="indefinite"/></circle>
+      <circle cx="1070" cy="196" r="5"><animate attributeName="r" values="5;7;5" dur="4s" begin="1.6s" repeatCount="indefinite"/></circle>
+      <circle cx="1070" cy="262" r="5"><animate attributeName="r" values="5;7;5" dur="4s" begin="2.4s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <g fill="#8B5CF6">
+      <circle cx="960" cy="90" r="7"><animate attributeName="opacity" values="0.65;1;0.65" dur="5s" begin="0s" repeatCount="indefinite"/></circle>
+      <circle cx="960" cy="160" r="7"><animate attributeName="opacity" values="0.65;1;0.65" dur="5s" begin="1.2s" repeatCount="indefinite"/></circle>
+      <circle cx="960" cy="232" r="7"><animate attributeName="opacity" values="0.65;1;0.65" dur="5s" begin="2.4s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <circle cx="860" cy="160" r="11" fill="#6366F1"/>
+    <circle cx="860" cy="160" r="11" fill="none" stroke="#6366F1" stroke-width="1.6">
+      <animate attributeName="r" values="11;30;11" dur="4.5s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="0.8;0;0.8" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- identity -->
+    <text x="80" y="128" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="62" font-weight="700" fill="#F8FAFC" letter-spacing="1.5">Sofien Krir</text>
+
+    <rect x="82" y="150" width="132" height="4" rx="2" fill="url(#accent)"/>
+
+    <text x="80" y="200" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="27" font-weight="500" fill="#94A3B8">Data Science &amp; AI Engineer</text>
+
+    <!-- rotating statement -->
+    <g font-family="'JetBrains Mono', 'Consolas', 'SF Mono', Menlo, monospace" font-size="17" fill="#22D3EE">
+      <text x="80" y="252">
+        Systèmes RAG et agents LLM de bout en bout
+        <animate attributeName="opacity" values="1;1;0;0;0;0;1" keyTimes="0;0.28;0.33;0.61;0.66;0.94;1" dur="13s" repeatCount="indefinite"/>
+      </text>
+      <text x="80" y="252" opacity="0">
+        Je mesure ce que mes systèmes trouvent vraiment
+        <animate attributeName="opacity" values="0;0;1;1;0;0;0" keyTimes="0;0.28;0.33;0.61;0.66;0.94;1" dur="13s" repeatCount="indefinite"/>
+      </text>
+      <text x="80" y="252" opacity="0">
+        Machine Learning · Deep Learning · LLMs · RAG
+        <animate attributeName="opacity" values="0;0;0;0;1;1;0" keyTimes="0;0.28;0.33;0.61;0.66;0.94;1" dur="13s" repeatCount="indefinite"/>
+      </text>
+    </g>
+
+    <text x="80" y="288" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="15" fill="#64748B" letter-spacing="2.5">TUNIS · TUNISIE</text>
+
+    <rect width="1200" height="4" fill="url(#accent)"/>
+  </g>
+</svg>
